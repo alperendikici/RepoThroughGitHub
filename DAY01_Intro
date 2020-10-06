@@ -1,0 +1,67 @@
+# Items Completed Before Class
+* Created Account on GitHub 
+* Installed git local software 
+  * >(Git != GitHub)  
+* Installed GitHub Desktop App
+# Git is Version Control System (VCS)
+A version control system, or VCS, tracks the history of changes as people and teams collaborate on projects together.
+# Distributed VCS : 
+    everyone can have the entire history of the project 
+    locally (without connection) , eventually push the changes to 
+    the central repository once done. 
+# Git Repository 
+A repository, or Git project, encompasses the entire collection of files and folders associated with a project, along with each file's revision history
+GitHub Desktop is a git client tool with nice graphical user interface
+to make it easy to work with git and github 
+Let's create a Git Repository to start with using GitHub Desktop.
+There are many ways to work with Git 
+we will take visual approach 
+### Create a new repository 
+- give a name 
+- select desktop location 
+It will create a folder with that name you selected 
+in your file System
+it has a hidden folder called .git
+and that's where all the tracking happen 
+- Mac user :  `COMMAND+ SHIFT + .`  
+    It will show all hidden files and folder 
+- Windows users 
+### Add new file in repository 
+Observe in GitHub desktop : 
+GitHub desktop immediately showed the changes you made.
+* The red in github desktop indicate 
+    you have deleted these lines 
+* green in github desktop indicate
+    you have added new content
+under the changes tab so we can see what has been added or modified. 
+Once you are ok with the change, 
+you can **Commit** the change into the local repository history
+and provide comment to the commit you have made.
+You may see the change in the history tab.
+It's almost like 
+    taking a snapshot of your project change at that moment. 
+-- TASK 2 : 
+    Create a new file called file2.txt under your repository 
+    Add one line and save in sublime
+    observe the change in GitHub Desktop 
+    Provide comment for your change and commit the change 
+         so it can be saved into local repository history. 
+    Add 3 more lines and save in sublime
+    observe the change in GitHub Desktop 
+    Provide comment for your change and commit the change 
+         so it can be saved into local repository history. 
+    Delete 2 lines and in sublime
+    observe the change in GitHub Desktop 
+    Provide comment for your change and commit the change 
+         so it can be saved into local repository history. 
+    Create new file called file3.txt under your repository 
+    add few line and save --->> observe the change -->> commit with nice message 
+    rename this file to newFile3.txt , observe the change -->> commit 
+    delete the file completely , observe the change -->> commit
+## Pushing Git Local Repostory to GitHub 
+## Clone GitHub Repository to Local
+You can always clone your any repository from github to local, public or private, once you provided your username and password. 
+You can also add new changes and push it back to the GitHub since it's your own repository. 
+---- 
+If a repository is not yours but it's public on GitHub , you can clone it to your local but you will not have access to push the changes back to GitHub because it's not your repository. 
+Collaboration is possible by adding the person as collaborator.
